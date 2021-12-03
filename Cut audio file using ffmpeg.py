@@ -4,7 +4,7 @@ from datetime import datetime
 
 input_file = r'C:\Users\Administrator\Downloads\Breathe Carolina - Nights.wav'
 
-start = '01:00.000'  # HOURS:MM:SS.MILLISECONDS
+start = '01:00.000'  # HOURS:MM:SS.MILLISECONDS or MM:SS.MILLISECONDS or MM:SS
 end = '02:00.000'
 
 name, ext = os.path.splitext(input_file)
